@@ -1,6 +1,6 @@
-DATABASE AUTHENTICATION IS IN .env
-
 RUN PROJECT:
-- create database with the name based on .env
+- composer install
+- sync with .env (create .env file)
+- php artisan key:generate
 - php artisan migrate
 - php artisan serve
